@@ -1,0 +1,23 @@
+{
+  "name": "category-graph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "nf start",
+    "test": "babel ./src --out-dir=./build && mocha"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.14.0",
+    "babel-plugin-transform-flow-strip-types": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-es2016": "^6.11.3",
+    "flow-bin": "^0.31.1",
+    "foreman": "^2.0.0",
+    "http-server": "^0.9.0",
+    "mocha": "^3.0.2"
+  }
+}
